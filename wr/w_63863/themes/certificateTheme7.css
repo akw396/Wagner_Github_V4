@@ -1,0 +1,144 @@
+#reveal { padding: 0; width:715px; height: 433px; }
+
+#content_holder {
+	display: visible;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	z-index:1;
+}
+
+#name {
+	display: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:6;
+}
+
+#score {
+	display: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:7;
+}
+#date {
+	display: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:8;
+}
+
+#custom {
+	display: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:9;
+}
+
+#sigtext {
+	display: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:10;
+}
+#sig {
+	display: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:3;
+}
+
+
+#intTitle {
+	margin-top:60px;
+	text-align:center;
+	color: #0068A2;
+	position: relative;
+	z-index:4;
+}
+
+.line {
+	width: 300px;
+	text-align:center;
+	display:none;
+	margin: auto;
+	position: relative;
+	z-index:5;
+}
+
+#Description {
+	margin-top: 40px;
+	margin-left: 110px;
+	margin-right: 110px;
+	position: relative;
+	z-index:2;
+}
+
+#content_bg {
+	margin-left: 25px;
+	border:1px solid white;
+	height: 450px;
+}
+
+.timelineNode {
+	margin-top:15px; 
+	border:2px solid white;	
+	border-radius: 50%;
+	width: 15px;
+ 	height: 15px; 
+	background-color: #ffffff;
+	/*
+	background-image: linear-gradient(bottom, rgb(243,229,236) 12%, rgb(243,229,236) 56%, rgb(255,255,255) 78%);
+	background-image: -o-linear-gradient(bottom, rgb(243,229,236) 12%, rgb(243,229,236) 56%, rgb(255,255,255) 78%);
+	background-image: -moz-linear-gradient(bottom, rgb(243,229,236) 12%, rgb(243,229,236) 56%, rgb(255,255,255) 78%);
+	background-image: -webkit-linear-gradient(bottom, rgb(243,229,236) 12%, rgb(243,229,236) 56%, rgb(255,255,255) 78%);
+	background-image: -ms-linear-gradient(bottom, rgb(243,229,236) 12%, rgb(243,229,236) 56%, rgb(255,255,255) 78%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.12, rgb(243,229,236)),
+		color-stop(0.56, rgb(243,229,236)),
+		color-stop(0.78, rgb(255,255,255))
+	);
+	*/
+}
+
+.timelineNode:hover
+{
+    background-color: #004a61;
+}
+
+.timelineNode:active
+{
+    background-color: #40c3c3;
+}
+
+#tabs_content_container
+{
+    padding: 20px 30px;
+	background-color: #FFFFFF;
+	min-height: 250px;
+}
+
+.tab_content {
+	border:1px solid black;
+}
+
+#tabs_container { 
+	height:40px;
+	display: block;
+}
+
+#canvas {
+}
+
+#canvas-wrap { position:relative; width:600px; height:70px; }
+#canvas-wrap canvas { position:absolute; top:0; left:0; z-index:0 }
